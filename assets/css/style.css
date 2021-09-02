@@ -70,14 +70,31 @@ h1 {
   position: relative;
   opacity:0.5;
 }
+
+/* Cover text  / Why rent with us? */
+
 #cover-text{
   text-align: center;
   font-style: italic;
-  padding: 30px;
+  padding: 20px;
 }
 
 #cover-text h2 {
   padding: 20px;
 }
+
+/* Why us question */
+#why-us{
+  text-align: center;
+  font-style: italic;
+  padding: 30px;
+}
+
+#why-us h2 {
+  padding: 20px;
+
+}
+
+/* Car categories */
 
 
