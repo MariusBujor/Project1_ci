@@ -95,6 +95,15 @@ h1 {
 
 }
 
-/* Car categories */
+/* Our Cars categories */
+
+#our-cars{
+  text-align: center;
+  font-style: italic;
+  padding: 30px;
+}
+#our-cars h2{
+  padding: 20px; 
+}
 
 
