@@ -23,11 +23,11 @@ header a {
   text-decoration: none;
 }
 .logo-container {
-  width: 40%;
+  width: 53%;
   overflow: hidden;
 }
 .nav-container {
-  width: 30%;
+  width: 35%;
   overflow: hidden;
 }
 #logo{
@@ -182,8 +182,10 @@ h1 {
 }
 
 .image {
-  background-size: cover;
+  background-size:cover;
   background-position: center;
+
+  
 }
 /* footer */
 
