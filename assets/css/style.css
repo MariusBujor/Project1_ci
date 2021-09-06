@@ -233,3 +233,18 @@ footer{
     z-index: -1;
   }
 }
+
+/* Our Cars Page  */
+
+#lux-photos{
+  text-align: center;
+  padding: 30px;
+}
+.photos1{
+  height:75px;
+  width: 75px;
+  margin-right: 10px;
+  margin-left:10px;
+
+}
+
