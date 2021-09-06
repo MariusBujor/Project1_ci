@@ -272,7 +272,6 @@ footer {
 }
 
 
-
 /* Off road cars */
 
 #offroad-photos {
@@ -284,8 +283,6 @@ footer {
     margin-left: 80px;
 }
 
-
-
 .photos2 img {
     display: inline;
     margin: 30px;
@@ -293,3 +290,12 @@ footer {
     height: 150px;
     border: 3px solid rgba(90, 118, 153, 0.678);
 }
+
+/* Manage booking section */
+#manage {
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.signin-logo {}
