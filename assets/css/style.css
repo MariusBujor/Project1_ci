@@ -256,10 +256,11 @@ footer {
 #lux-photos {
     text-align: center;
     padding: 30px;
+    margin-top: 50px;
 }
 
 .photos1 {
-    margin-left: 100px;
+    margin-left: 80px;
 }
 
 .photos1 img {
@@ -273,11 +274,22 @@ footer {
 
 
 /* Off road cars */
+
 #offroad-photos {
     text-align: center;
     padding: 30px;
 }
 
 .photos2 {
-    margin-left: 100px;
+    margin-left: 80px;
+}
+
+
+
+.photos2 img {
+    display: inline;
+    margin: 30px;
+    width: 210px;
+    height: 150px;
+    border: 3px solid rgba(90, 118, 153, 0.678);
 }
