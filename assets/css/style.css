@@ -99,9 +99,8 @@ h1 {
 }
 
 #bg-outer video {
-    height: 80%;
-    width: 100%;
-
+    max-width: 1320px;
+    margin: auto;
 }
 
 
@@ -301,6 +300,22 @@ h6{
     margin-top: 50px;
 }
 
+
+.form-section{
+    height:450px;
+}
+
+.signup-form{
+    margin: 0px 0px 0px 330px;
+    color: rgb(239, 247, 244);
+    background-color: rgba(90, 118, 153, 0.678);
+    max-width: 300px;
+    padding: 150px;
+    border-radius: 30px;
+    text-align: left;
+
+    
+}
 
 
 @media(max-width:768px) {
