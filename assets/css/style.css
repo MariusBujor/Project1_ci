@@ -223,32 +223,6 @@ footer {
     padding: 5%;
 }
 
-@media(max-width:768px) {
-
-    .content-left,
-    .content-right {
-        position: relative;
-        width: 100%;
-        text-align: center;
-        background-color: rgba(255, 255, 255, .7);
-        margin: 0 auto;
-        margin-top: 30px;
-        border-radius: 45px 0 45px 0;
-    }
-
-    .content-left .image,
-    .content-right .image {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-    }
-
-    .image {
-        z-index: -1;
-    }
-}
-
 /* Our Cars Page  */
 
 .gallery {
@@ -272,10 +246,10 @@ footer {
 .photo-container img {
     position: absolute;
     margin: auto;
-    position: absolute;
     top: 0; left: 0; bottom: 0; right: 0;
     width: 100%;
-    min-height: 150px;
+    height: 100%;
+    object-fit: cover;
 }
 
 .photo-container span.photo-caption {
@@ -321,3 +295,45 @@ footer {
 }
 
 .signin-logo {}
+
+@media(max-width:768px) {
+
+    .content-left,
+    .content-right {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        background-color: rgba(255, 255, 255, .7);
+        margin: 0 auto;
+        margin-top: 30px;
+        border-radius: 45px 0 45px 0;
+    }
+
+    .content-left .image,
+    .content-right .image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .image {
+        z-index: -1;
+    }
+
+    .photo-container {
+        margin: 1.5%;
+        width: 30%;
+        height: 100px;
+    }
+    
+    .photo-container span.photo-caption {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    
+    .photo-container:hover span.photo-caption {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
