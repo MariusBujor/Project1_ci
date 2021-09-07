@@ -24,4 +24,33 @@ Table of contents
 
 ## Scope
 ### Features
+#### Navigation bar
+- features on all 3 pages
+- is built mobile first making is fully responsive by displaying the pages under the logo
+- users can navigate through other pages easy on devices with different sizes.
+#### Hero video
+- displays a muted continues video provides the user insight using one of our  luxury car
+- the video has a white transparent layer to blend with the background 
+#### Why Us section
+- informs the user that choosing us he will receive good services at the best prices in Dublin
+What do we offer section
+- informs the user in regards our two categories of cars that we are renting ( Luxury and off Road)
+- two photos that are displaying those two categories (Luxury and Off Road) that are becoming background images of the text on mobile device
+#### Our cars section (landing page)
+- informs the user that we are up to date with the new technologies and cars 
+#### Our Cars page
+- the page will feature our two categories of cars with photos, car codes and prices 
+#### Manage booking page/form
+- the page will gives the user the choice to provide their details if they wish to book a car.
+#### Footer
+- the footer provides the user links to Facebook, Twitter and Instagram
+- the footer has the same colour as the navbar blended with the background colour 
+
 ### User Stories
+- As a user, I want...
+  - a clear understanding of the site main purpose.
+  - to be able to easily navigate throughout the website.
+- As a potential client, I want...
+  - to be able to see what cars are available.
+  - to be able to understand from the first view of the website what are the steps to rent a car.
+  - to be able to contact the business and also to see feedbacks accessing their social media links
