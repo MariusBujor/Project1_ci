@@ -223,6 +223,13 @@ footer {
     padding: 5%;
 }
 
+h6{
+    text-align: center;
+    color:#fff;
+    margin-top:80px;
+
+}
+
 /* Our Cars Page  */
 
 .gallery {
@@ -294,7 +301,7 @@ footer {
     margin-top: 50px;
 }
 
-.signin-logo {}
+
 
 @media(max-width:768px) {
 
