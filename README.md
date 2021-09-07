@@ -11,7 +11,16 @@ Table of contents
 
 ## Strategy
 ### Business goals
+- main goal is to sell our product (rental cars)
+- is to reach adults that are looking for a short-term transportation
+- is to reach to people wishing for adventure (off-road)
+- is to reach to a certain niche of people 
+
 ### User Needs
+- to have the comfort of owning a short-term transportation when traveling
+- to have a list of vehicles to chose from based on budget
+- to book the desired vehicle in advance
+- to try new adventures using reliable off-road vehicles
 
 ## Scope
 ### Features
