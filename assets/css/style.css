@@ -251,6 +251,52 @@ footer {
 
 /* Our Cars Page  */
 
+.gallery {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.photo-container {
+    position: relative;
+    margin: 2.5%;
+    width: 20%;
+    height: 150px;
+    overflow: hidden;
+    border: 3px solid rgba(90, 118, 153, 0.678);
+    box-sizing: border-box;
+}
+
+/* CREDIT: https://www.smashingmagazine.com/2013/08/absolute-horizontal-vertical-centering-css/ */
+.photo-container img {
+    position: absolute;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    width: 100%;
+    min-height: 150px;
+}
+
+.photo-container span.photo-caption {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(90, 118, 153, 0.678);
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    text-align: center;
+    transition: font-size 0.3s ease-in-out, line-height 0.3s ease-in-out;
+}
+
+.photo-container:hover span.photo-caption {
+    font-size: 20px;
+    line-height: 25px;
+}
+
 /* Luxury cars*/
 
 #lux-photos {
@@ -259,36 +305,12 @@ footer {
     margin-top: 50px;
 }
 
-.photos1 {
-    margin-left: 80px;
-}
-
-.photos1 img {
-    display: inline;
-    margin: 30px;
-    width: 210px;
-    height: 150px;
-    border: 3px solid rgba(90, 118, 153, 0.678);
-}
-
 
 /* Off road cars */
 
 #offroad-photos {
     text-align: center;
     padding: 30px;
-}
-
-.photos2 {
-    margin-left: 80px;
-}
-
-.photos2 img {
-    display: inline;
-    margin: 30px;
-    width: 210px;
-    height: 150px;
-    border: 3px solid rgba(90, 118, 153, 0.678);
 }
 
 /* Manage booking section */
