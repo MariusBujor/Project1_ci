@@ -30,30 +30,46 @@
             </nav>
         </div>
     </header>
-    <section>
-
-        <h1 id="manage">Manage Booking</h1>
-        <a class="sign-logo" href=" #" target="#" rel="noopener"><i class="fas fa-sign-in-alt fa-7x"></i></a>
-
-    </section>
     <!-- Form section inspired from Code Institute Challanges-->
     <section class="form-section">
+        <h1 id="manage">Manage Booking</h1>
 
         <form method="GET" action="https://formdump.codeinstitute.net/" class="signup-form">
-        
-        <label for="fname">Firs Name</label>
-        <input class="text-input"id="fname" name="first_name" type="text"required>
-        <label for="lname"> Surname Name</label>
-        <input class="text-input"id="lname" name="last_name" type="text"required>
-        <label for="email">Email Address</label>
-        <input class="email"id="email" name="email_address" type="text"required>
-        <label for="number">Phone Number</label>
-        <input class="number"id="number" name="phone_number" type="text"required>
-        
-        <div class="code-input">
-        <label for="number">Car Code</label>
-        <input class="carcode"id="carcode" name="code_number" type="text"required>
-         </div>
+            <span class="sign-logo"><i class="fas fa-sign-in-alt fa-6x"></i></span>
+
+            <div class="form-control">
+                <label for="fname">First Name</label>
+                <input id="fname" name="first_name" type="text" required>
+            </div>
+            <div class="form-control">
+                <label for="lname"> Surname</label>
+                <input id="lname" name="last_name" type="text" required>
+            </div>
+            <div class="form-control">
+                <label for="email">Email Address</label>
+                <input id="email" name="email_address" type="email" required>
+            </div>
+            <div class="form-control">
+                <label for="phone">Phone Number</label>
+                <input id="phone" name="phone_number" type="text" required>
+            </div>
+            <div class="form-control">
+                <label for="carcode">Car Code</label>
+                <input id="carcode" name="code_number" type="text" required>
+            </div>
+            <div class="form-group">
+                <div class="form-control">
+                    <label for="from">From</label>
+                    <input id="from" name="from_date" type="date" required>
+                </div>
+                <div class="form-control">
+                    <label for="to">To</label>
+                    <input id="to" name="to_date" type="date" required>
+                </div>
+            </div>
+            <div class="form-control">
+                <button type="submit" class="submit">Book</button>
+            </div>
         </form>
 
 
@@ -65,7 +81,8 @@
         <ul class="social-networks">
             <li><a href="https://www.facebook.com" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a>
             </li>
-            <li><a href="https://www.twitter.com" target="_blank" rel="noopener"><i class="fab fa-twitter-square"></i></a></li>
+            <li><a href="https://www.twitter.com" target="_blank" rel="noopener"><i
+                        class="fab fa-twitter-square"></i></a></li>
             <li><a href="https://www.instagram.com" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
             </li>
         </ul>

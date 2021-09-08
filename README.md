@@ -12,7 +12,8 @@ Users of the website will be able to find  that we offer the best services  and 
     - [Features](#features)
     - [User Stories](#user-stories)
   - [Structure](#structure)
-  - [Wireframes](#wireframes)
+  - [Skeleton](#skeleton)
+    - [Wireframes](#wireframes)
 
 [Live DEMO](https://mariusbujor.github.io/Project1_ci/)
 
