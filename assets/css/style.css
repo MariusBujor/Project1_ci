@@ -82,7 +82,7 @@ header {
 }
 
 section {
-    max-width: 1320px;
+    max-width: 1520px;
     margin: auto;
 }
 
@@ -198,8 +198,6 @@ section {
 .image {
     background-size: cover;
     background-position: center;
-
-
 }
 
 /* footer */
@@ -213,7 +211,6 @@ footer {
 
 .social-networks {
     text-align: center;
-
     height: 60px;
 }
 
@@ -230,7 +227,7 @@ footer {
 
 h6{
     text-align: center;
-    color:#fff;
+    color: rgb(16, 62, 100);
     margin-top:80px;
 
 }
