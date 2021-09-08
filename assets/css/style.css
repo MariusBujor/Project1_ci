@@ -410,3 +410,37 @@ h6{
         line-height: 20px;
     }
 }
+
+@media(max-width:567px) {
+    .signup-form {
+        padding: 20px 10px;
+    }
+    .form-group {
+        width: 100%;
+        margin: 0;
+        justify-content: space-between;
+    }
+    .form-group .form-control {
+        width: 40%;
+        margin: 10px;
+    }
+    .form-control {
+        margin: 10px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .form-control input {
+        width: 100%;
+    }
+    
+    .form-control label {
+        width: 100%;
+        text-align: left;
+        margin-bottom: 5px;
+    }
+    .form-control .submit {
+        margin: auto;
+        width: 50%;
+    }
+}
