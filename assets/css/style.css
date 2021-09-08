@@ -303,14 +303,18 @@ h6{
 
 .form-section{
     height:450px;
+    
 }
 
-.signup-form{
-    margin: 0px 0px 0px 330px;
+ .signup-form{ 
+    top: 50%;
+    left:50%;
+    position: absolute;
     color: rgb(239, 247, 244);
     background-color: rgba(90, 118, 153, 0.678);
-    max-width: 300px;
-    padding: 150px;
+    width: 300px;
+    height: 100px;
+    padding: 70px 30px;
     border-radius: 30px;
     text-align: left;
 
