@@ -12,7 +12,7 @@ Users of the website will be able to find  that we offer the best services  and 
     - [Features](#features)
     - [User Stories](#user-stories)
   - [Structure](#structure)
-  - Wireframes
+  - [Wireframes](#wireframes)
 
 [Live DEMO](https://mariusbujor.github.io/Project1_ci/)
 
@@ -72,3 +72,9 @@ The website is designed to be consistent, intuitive and learnable.
   - The content is organised and prioritised by importance from top to bottom and left to right.
   - For consistency, the information is presented in 4 columns on large screens and individual or in 2 columns on small screens.
   The information is structured mostly in nested lists.
+
+## Skeleton
+### Wireframes
+- Landing page: [mobile](https://github.com/MariusBujor/Project1_ci/blob/main/docs/wireframes/homepage_mobile.png), [desktop](https://github.com/MariusBujor/Project1_ci/blob/main/docs/wireframes/homepage_desktop.png)
+- Our Cars page: [mobile](https://github.com/MariusBujor/Project1_ci/blob/main/docs/wireframes/our_cars_mobile.png), [desktop](https://github.com/MariusBujor/Project1_ci/blob/main/docs/wireframes/our_cars_desktop.png)
+- Manage Booking page: [mobile](https://github.com/MariusBujor/Project1_ci/blob/main/docs/wireframes/booking_moile.png), [desktop](https://github.com/MariusBujor/Project1_ci/blob/main/docs/wireframes/booking_desktop.png)
