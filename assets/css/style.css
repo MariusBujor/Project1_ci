@@ -11,6 +11,11 @@ body {
     background-color: rgb(239, 247, 244);
 }
 
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
 header {
     display: flex;
     flex-direction: row;
@@ -19,66 +24,44 @@ header {
     flex-wrap: wrap;
 }
 
-header a {
-    text-decoration: none;
-}
-
 .logo-container {
     width: 53%;
-    overflow: hidden;
+    padding: 16px 32px;
 }
 
 .nav-container {
     width: 35%;
+    min-width: 340px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.logo-container,
+.nav-container {
+    background: linear-gradient(to top, rgb(239, 247, 244), rgba(91, 124, 161, 0.678));
+    border-radius: 45px 0 45px 0;
+    height: 70px;
+    max-height: 70px;
+    box-sizing: border-box;
     overflow: hidden;
 }
 
-#logo {
-    font-size: 280%;
-    margin-left: 15px;
-    padding: 35px;
+.logo-container a {
+    font-size: 150%;
     font-weight: bold;
-    background-color: rgba(90, 118, 153, 0.678);
-    border-radius: 45px 0 45px 0;
-}
-
-#logo,
-h1 {
-    color: black;
     font-style: italic;
+    color: #000;
 }
 
 /* navigation links */
 
-#navbar {
-    margin-right: 15px;
-    font-size: 100%;
-    letter-spacing: 1px;
-    background-color: rgba(91, 124, 161, 0.678);
-    padding: 35px;
-    border-radius: 45px 0 45px 0;
-    background: linear-gradient(to top, rgb(239, 247, 244), rgba(91, 124, 161, 0.678));
-}
-
-#logo,
-#navbar {
-    line-height: 10px;
-    background: linear-gradient(to top, rgb(239, 247, 244), rgba(91, 124, 161, 0.678));
-}
-
-#navbar li {
-    float: left;
+.nav-container li {
+    font-size: 16px;
+    display: inline-block;
     list-style-type: none;
     margin-right: 10px;
 }
-
-#navbar a {
-    text-decoration: none;
-    color: inherit;
-    font-style: italic;
-}
-
-#navbar a:hover {
+.nav-container a:hover {
     border-bottom: 3px solid #032a4ed7;
 }
 
@@ -370,6 +353,21 @@ h6{
 }
 
 @media(max-width:768px) {
+    .logo-container {
+        width: 230px;
+        padding: 20px 16px;
+    }
+    .nav-container {
+        min-width: 290px;
+        padding: 20px 10px;
+    }
+    .logo-container a {
+        font-size: 100%;
+    }
+    .nav-container li {
+        font-size: 14px;
+        margin-right: 5px;
+    }
 
     .content-left,
     .content-right {
@@ -412,6 +410,26 @@ h6{
 }
 
 @media(max-width:567px) {
+    header {
+        flex-direction: column;
+    }
+    
+    .logo-container, .nav-container {
+        width: 100%;
+        max-width: 100%;
+        min-width: auto;
+        text-align: center;
+        height: 40px;
+        padding: 10px 0;
+    }
+    
+    .logo-container a {
+        font-size: 100%;
+    }
+    .nav-container li {
+        font-size: 12px;
+        margin-right: 3px;
+    }
     .signup-form {
         padding: 20px 10px;
     }
