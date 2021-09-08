@@ -81,9 +81,13 @@ header {
 
 }
 
-#bg-outer video {
+section {
     max-width: 1320px;
     margin: auto;
+}
+
+#bg-outer video {
+    width: 100%;
 }
 
 #bg-outer .top-gradient {
