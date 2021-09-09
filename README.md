@@ -82,6 +82,10 @@ The website is designed to be consistent, intuitive and learnable.
   
 ## Testing 
 
+### Performance Test
+  ![Chrome Lighthouse](https://github.com/MariusBujor/Project1_ci/blob/main/docs/lighthouse.png)
+  Performance, accessibility and good practices has been tested on Google Lighthouse on every page.
+
 ### Validator testing
 
 - HTML
