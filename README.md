@@ -84,6 +84,9 @@ The website is designed to be consistent, intuitive and learnable.
   
 ## Testing 
 
+### Functionality Testing
+
+
 ### Performance Test
   ![Chrome Lighthouse](https://github.com/MariusBujor/Project1_ci/blob/main/docs/lighthouse.png)
   
@@ -93,10 +96,15 @@ The website is designed to be consistent, intuitive and learnable.
 
 - HTML
   
-  - No errors were returned when passing through the official []()...
+  - No errors were returned when passing through the official [w3c html validator](https://validator.w3.org/).
 
 - CSS
-  - No errors were found when passing through the official []()...
+  - No errors were found when passing through the official [w3c jigsaw validator](https://jigsaw.w3.org/css-validator/).
+
+### Accessibility
+Accessibility was tested with both Chome Lighthouse and [a11y contrast checker](https://color.a11y.com/) and no issues were found.
+
+### Compatibility
 
 ### Unfixed Bugs
 
