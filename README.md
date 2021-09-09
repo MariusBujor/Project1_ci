@@ -79,3 +79,20 @@ The website is designed to be consistent, intuitive and learnable.
 - Landing page: [mobile](https://github.com/MariusBujor/Project1_ci/blob/main/docs/wireframes/homepage_mobile.png), [desktop](https://github.com/MariusBujor/Project1_ci/blob/main/docs/wireframes/homepage_desktop.png)
 - Our Cars page: [mobile](https://github.com/MariusBujor/Project1_ci/blob/main/docs/wireframes/our_cars_mobile.png), [desktop](https://github.com/MariusBujor/Project1_ci/blob/main/docs/wireframes/our_cars_desktop.png)
 - Manage Booking page: [mobile](https://github.com/MariusBujor/Project1_ci/blob/main/docs/wireframes/booking_moile.png), [desktop](https://github.com/MariusBujor/Project1_ci/blob/main/docs/wireframes/booking_desktop.png)
+  
+## Testing 
+
+### Validator testing
+
+- HTML
+  
+  - No errors were returned when passing through the official []()...
+
+- CSS
+  - No errors were found when passing through the official []()...
+
+### Unfixed Bugs
+
+You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+
+### Deployment

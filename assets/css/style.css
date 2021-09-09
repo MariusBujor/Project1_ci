@@ -311,7 +311,7 @@ footer {
 .signup-form{
     margin: 0 auto;
     color: rgb(239, 247, 244);
-    background-color: rgba(90, 118, 153, 0.678);
+    background-color: rgba(90, 118, 153, 0.5);
     width: 80%;
     padding: 20px 30px;
     border-radius: 30px;
