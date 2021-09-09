@@ -4,6 +4,10 @@ This website is designated for anyone who is over 18 years old and posses a driv
 
 Users of the website will be able to find  that we offer the best services  and also that  we have a large diversity of cars that can be rented fast and easy at the lowest prices in Dublin.
 
+[Live DEMO](https://mariusbujor.github.io/Project1_ci/)
+
+[![Fast Cars & Rent Easy](https://github.com/MariusBujor/Project1_ci/blob/main/docs/preview.png)](https://mariusbujor.github.io/Project1_ci/)
+
 ## Table of contents
   - [Strategy](#strategy)
     - [Business Goals](#business-goals)
@@ -14,8 +18,6 @@ Users of the website will be able to find  that we offer the best services  and 
   - [Structure](#structure)
   - [Skeleton](#skeleton)
     - [Wireframes](#wireframes)
-
-[Live DEMO](https://mariusbujor.github.io/Project1_ci/)
 
 
 ## Strategy
@@ -84,6 +86,7 @@ The website is designed to be consistent, intuitive and learnable.
 
 ### Performance Test
   ![Chrome Lighthouse](https://github.com/MariusBujor/Project1_ci/blob/main/docs/lighthouse.png)
+  
   Performance, accessibility and good practices has been tested on Google Lighthouse on every page.
 
 ### Validator testing
