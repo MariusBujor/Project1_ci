@@ -102,7 +102,7 @@ The website is designed to be consistent, intuitive and learnable.
   - No errors were found when passing through the official [w3c jigsaw validator](https://jigsaw.w3.org/css-validator/).
 
 ### Accessibility
-Accessibility was tested with both Chome Lighthouse and [a11y contrast checker](https://color.a11y.com/) and no issues were found.
+Accessibility was tested with both Chrome Lighthouse and [a11y contrast checker](https://color.a11y.com/) and no issues were found.
 
 ### Compatibility
 
@@ -111,3 +111,34 @@ Accessibility was tested with both Chome Lighthouse and [a11y contrast checker](
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
 
 ### Deployment
+
+- ### Git Hub Pages
+  
+The project was deployed to GitHub Pages using the following steps:
+
+1 Log in to GitHub and locate the[ Fast Cars & Rent Easy Repository](https://github.com/MariusBujor/Project1_ci)
+
+2 At the top of the Repository, locate and click the "Settings" Button on the menu
+
+3 Scroll down the Settings page until you locate the "GitHub Pages" Section.
+
+4 Under "Source", click the dropdown called "None" and select "main" branch.
+
+5 The page will automatically refresh.
+
+6 Scroll back down through the page to locate the now published ............. in the "GitHub Pages" section.
+
+### Credits
+
+   #### Content
+   - The text for the Home page was taken from Wikipedia Article 
+   - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/v5.15/icons?d=gallery&p=2&q=social)
+  
+  #### Media 
+  - [Yash Rao](https://www.pexels.com/@itsyashrao) for landing page's hero [Video](https://www.pexels.com/video/a-man-driving-a-red-ferrari-8443781/)
+  - [Pexels.com](https://www.pexels.com/) for all photos
+  
+  #### Code
+  - [Love Running Project](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode)  by Code Institute as a general resource.
+  - [W3Schools](https://www.w3schools.com/) as a general resource.
+  
