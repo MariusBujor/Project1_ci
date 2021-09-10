@@ -371,6 +371,15 @@ footer {
     background-color: rgba(91, 8, 99, 0.918);
     cursor: pointer;
 }
+
+/* Thank you page  */
+
+.thank-you{
+
+    text-align: center;
+    color: rgba(91, 8, 99, 0.918);
+}
+
 /* Media  */
 
 @media(max-width:768px) {

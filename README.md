@@ -126,7 +126,7 @@ The project was deployed to GitHub Pages using the following steps:
 
 5 The page will automatically refresh.
 
-6 Scroll back down through the page to locate the now published ............. in the "GitHub Pages" section.
+6 Scroll back down through the page to locate the now published [Project1_ci](https://mariusbujor.github.io/Project1_ci/) in the "GitHub Pages" section.
 
 ### Credits
 
